@@ -1,6 +1,4 @@
-var l = 40;
+var  salary =25000;
 
-var b =30;
-var parameterofPlot = l+b+l+b;
-var totalwire = 5* parameterofPlot
- console.log
+var bonus  =  salary*5;
+console.log(bonus);
