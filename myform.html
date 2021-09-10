@@ -1,55 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script>
-        function getFullName(){
+        function getFullName() {
             var firstName = document.getElementById('Fname').value;
             var lastName = document.getElementById('Lname').value;
-            console.log(firstName+""+lastName);
-            document.getElementById("FullName").value=firstName+""+lastName;
+            console.log(firstName + "" + lastName);
+            document.getElementById("FullName").value = firstName + "" + lastName;
         }
     </script>
     <style>
-        form{
-border: 2px solid rgb(97, 71, 71);
-padding: 20px;
-background: linear-gradient(47deg,rgb(241, 116, 116),blue);
-color: white;
-border-radius: 30px 0 30px 0;
-box-shadow: 1px   4px 1px rgb(119, 119, 119);
-width: 300px;
-height: 140px;
-margin-left: 500px;
+        form {
+            border: 2px solid rgb(97, 71, 71);
+            padding: 20px;
+            background: linear-gradient(47deg, rgb(241, 116, 116), blue);
+            color: white;
+            border-radius: 30px 0 30px 0;
+            box-shadow: 1px 4px 1px rgb(119, 119, 119);
+            width: 300px;
+            height: 140px;
+            margin-left: 500px;
 
         }
-        .bu{
+
+        .bu {
             margin-left: 110px;
-            background: linear-gradient(47deg,blue,rgb(241, 116, 116));
+            background: linear-gradient(47deg, blue, rgb(241, 116, 116));
             color: rgb(255, 255, 255);
-            border-radius: 10px 0 10px 0
-            ;
+            border-radius: 10px 0 10px 0;
         }
     </style>
 </head>
+
 <body>
     <form action="">
-    First Name:- <input id="Fname" type="text">
-    <br><br>
-    Last Name :- <input id="Lname" type="text">
-    <br><br>
-    Full Name :- <input id="FullName" type="text">
-    <br><br>
-        <input class="bu" type="button"value="Full Name" onclick="getFullName()">
-      
+        First Name:- <input id="Fname" type="text">
+        <br><br>
+        Last Name :- <input id="Lname" type="text">
+        <br><br>
+        Full Name :- <input id="FullName" type="text">
+        <br><br>
+        <input class="bu" type="button" value="Full Name" onclick="getFullName()">
 
-       
+
+
 
 
 
     </form>
 </body>
+
 </html>
